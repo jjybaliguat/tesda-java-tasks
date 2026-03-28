@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ThreeNumbersLargest {
@@ -31,7 +32,7 @@ public class ThreeNumbersLargest {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<Integer> arrNums = new ArrayList<>();
+        List<Integer> arrNums = new ArrayList<>();
         final int MAX_INPUT = 3;
         String[] label = {"first", "Second", "Third"};
 
