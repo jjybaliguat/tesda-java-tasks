@@ -42,8 +42,8 @@ public class ThreeNumbersLargest {
         }
 
         int result = arrNums.get(0);
-        boolean allEqual = false;
-        arrNums.sort(null);
+        boolean allEqual = true;
+        // arrNums.sort(null);
         // System.out.println(arrNums.toString());
         for(int i = 1; i < MAX_INPUT; i++){
             allEqual = arrNums.get(i) == result;
